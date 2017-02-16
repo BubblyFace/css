@@ -1,0 +1,52 @@
+body {
+    background: #333;
+}
+
+.bunny {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+#body {
+    width: 150px;
+    height: 100px;
+    background: #fff;
+    border-radius: 70% 100% 70% 50%;
+    position: relative;
+}
+
+#eyes {
+    width: 10px;
+    height: 10px;
+    background: #000;
+    border-radius: 100% 100% 100% 100%;
+    left: 100px;
+    top: 40px;
+    z-index: 1;
+    position: absolute;
+}
+
+#ear {
+    width: 100px;
+    height: 30px;
+    background: #fff;
+    position: absolute;
+    left: 40px;
+    top: -10px;
+    transform: rotate(30deg);
+    border-radius: 50% 100% 0% 50%;
+}
+
+#weiba {
+  width:30px;
+  height: 30px;
+  border-radius: 15px;
+  background: #fff;
+  position: absolute;
+  left: -15px;
+  top: 20px;
+  z-index: 1;
+}

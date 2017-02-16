@@ -1,0 +1,19 @@
+*{
+	border: 1px solid #333
+}
+div{
+	border: 1px solid #555555;
+}
+#image1{
+    width: 300px;
+    float: left;
+}
+
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
