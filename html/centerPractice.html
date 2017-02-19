@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>centerPractice</title>
+    <link rel="stylesheet" type="text/css" href="../normalize.css">
+    <link rel="stylesheet" type="text/css" href="../centerPractice.css">
+</head>
+
+<body>
+    <div class="root">
+        <div class="mainHolder">
+            <div class="rows">
+                <div class="cols clearfix">
+                    <div class="centerExp container1">
+                        <div class="ep1"></div>
+                    </div>
+                    <div class="centerChoiceText">show the contain</div>
+                </div>
+                <div class="cols clearfix">
+                    <div class="centerExp container2">
+                        <div class="ep2"></div>
+                    </div>
+                    <div class="centerChoiceText">show the contain</div>
+                </div>
+                <div class="cols clearfix">
+                    <div class="centerExp container3">
+                        <div class="ep3"></div>
+                    </div>
+                    <div class="centerChoiceText">show the contain</div>
+                </div>
+            </div>
+            <div class="rows">
+                <div class="cols clearfix">
+                    <div class="centerExp container4">
+                        <div class="ep4"></div>
+                    </div>
+                    <div class="centerChoiceText">show the contain</div>
+                </div>
+                <div class="cols clearfix">
+                    <div class="centerExp container5">
+                        <div class="ep5"></div>
+                    </div>
+                    <div class="centerChoiceText">show the contain</div>
+                </div>
+                <div class="cols clearfix">
+                    <div class="centerExp container6">
+                        <div class="ep6"></div>
+                    </div>
+                    <div class="centerChoiceText">show the contain</div>
+                </div>
+            </div>
+            <div class="rows">
+                <div class="cols clearfix">
+                    <div class="centerExp container7">
+                        <div class="ep7"></div>
+                    </div>
+                    <div class="centerChoiceText">show the contain</div>
+                </div>
+                <div class="cols clearfix">
+                    <div class="centerExp container8">
+                        <div class="ep8"></div>
+                    </div>
+                    <div class="centerChoiceText">show the contain</div>
+                </div>
+                <div class="cols clearfix">
+                    <div class="centerExp container9">
+                        <div class="ep9"></div>
+                    </div>
+                    <div class="centerChoiceText">show the contain</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+    var cols = document.getElementsByClassName('cols');
+    console.log (cols)
+    for (var i in cols) {
+            console.log(i)
+            cols[i].addEventListener("mouseover", function() {
+                getElementsByClassName('.centerChoiceText').css({
+                    "display": "block",
+                    "background": "#666"
+                });
+            })
+        }
+        // document.getElementsByClassName('cols').addEventListener("mouseover", function() {
+        //     getElementsByClassName('.centerChoiceText').css({
+        //         "display": "block",
+        //         "background": "#666"
+        //     });
+        // })
+    </script>
+</body>
+
+</html>

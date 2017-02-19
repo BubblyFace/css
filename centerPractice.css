@@ -1,0 +1,78 @@
+div {
+    display: block;
+}
+
+.mainframe {
+    position: relative;
+    min-width: 1032px;
+    height: 100vh;
+    background: #fff;
+}
+
+.rows {
+    display: flex;
+    width: 1000px;
+    height: 33vh;
+    margin: auto;
+}
+
+.cols {
+    position: relative;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #333;
+}
+
+.centerExp {
+    float: left;
+    width: 100px;
+    height: 100%;
+    background: #999;
+    z-index: 1;
+}
+
+.centerChoiceText {
+    position: relative;
+    display: none;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+    height: 50px;
+}
+
+.centerChoiceText {
+    display: block;
+    background: #666;
+}
+
+.clearfix:after{
+    content: " ";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+/* 水平居中 */
+
+
+/* css3 transform 适用于元素宽高未知*/
+
+.container1 {
+    position: relative
+}
+
+.ep1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Flex布局  适用于子元素为浮动，绝对定位，内联元素，均可水平居中*/
+
+.container2 {
+    display: flex;
+    justify-content: center;
+}
+
+
